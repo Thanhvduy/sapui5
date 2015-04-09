@@ -1,0 +1,47 @@
+<core:View
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	controllerName="sap.m.sample.xml_progressindicator.ProgressIndicator"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<l:VerticalLayout width="100%">
+		<l:content>
+			<ProgressIndicator
+				state="None"
+				displayValue="30%"
+				percentValue="30"
+				showValue="true"
+				width="90%">
+			</ProgressIndicator>
+			<ProgressIndicator
+				state="Error"
+				displayValue="70%"
+				percentValue="70"
+				showValue="true"
+				width="90%">
+			</ProgressIndicator>
+			<ProgressIndicator
+				state="Success"
+				displayValue="70%"
+				percentValue="70"
+				showValue="true"
+				width="90%">
+			</ProgressIndicator>
+			<ProgressIndicator
+				state="None"
+				displayValue="30%"
+				percentValue="30"
+				showValue="true"
+				width="90%">
+			</ProgressIndicator>
+			<ProgressIndicator
+				state="Warning"
+				displayValue="50%"
+				percentValue="50"
+				showValue="true"
+				width="90%">
+			</ProgressIndicator>
+		</l:content> <!-- sap.ui.core.Control -->
+	</l:VerticalLayout>
+</core:View>
